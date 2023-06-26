@@ -1,0 +1,32 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "durian",
+  "description": "诗缘书香",
+  "appid": "wxfc50c7bdd63ea464",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "condition": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.32.3",
+  "srcMiniprogramRoot": "dist/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

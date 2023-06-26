@@ -1,0 +1,73 @@
+.swiper{
+    height: 100%;
+    width: 100%;
+    .swiper-item{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+    .swiper-item-image{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        image{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            filter: blur(5PX);
+        }
+    }
+    .mask{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.5);
+        z-index: 2;
+    }
+    .content{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        overflow: hidden;
+        box-sizing: border-box;
+        user-select: text;
+        .title{
+            display: block;
+            font-size: 18PX;
+            color: #000;
+            text-align: center;
+            margin-top: 60PX;
+            line-height: 1.6;
+            padding: 0 60PX;
+            user-select: text;
+            font-family: 'KaiTi';
+        }
+        
+        .author{
+            display: block;
+            font-size: 12PX;
+            color: #666;
+            text-align: center;
+            padding-top: 5PX;
+            user-select: text;
+        }
+        .article{
+            font-size: 16PX;
+            color: #555;
+            text-indent: 16PX;
+            padding: 20PX 16PX;
+            line-height: 1.7;
+            user-select: text;
+            
+        }
+        .tip{
+            font-size: 12PX;
+            color: #999;
+            z-index: 100;
+            text-align: center;
+            padding-bottom: 20PX;
+        }
+    }
+}
